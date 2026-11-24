@@ -79,6 +79,7 @@ This status snapshot is based on source and project documents inspected on this 
 - Added local keyboard suggestions and settings, including themes and resizing.
 - Added a passphrase-based backup encryption codec. Complete in-app backup export and restore are still listed as unfinished in project documentation.
 - Replaced the root privacy-policy redirect with a responsive product website at `index.html`. It includes the supplied privacy policy URL and an evidence-based project status section.
+- Published the product website on GitHub Pages at `https://mr-willlss.github.io/Keystore-online/` in the separate public `Mr-Willlss/Keystore-online` repository. The original privacy-policy repository and URL were left unchanged.
 
 ### Being verified / release preparation
 
@@ -89,7 +90,7 @@ These are documented outstanding checks, not claims about someone's current acti
 - `docs/PLAY_STORE_RELEASE_CHECKLIST.md` lists store declarations, screenshots, reviewer notes, and device testing as release preparation.
 - Project documents need reconciliation: the README describes writing/typing capture and destructive migration as limitations, while current app UI labels the typing archive disabled and the current Room builder has no destructive-migration fallback. The README says Android 10+ although current `minSdk` is 23.
 - `docs/PRIVACY_POLICY.md` still contains a placeholder asking for a monitored developer contact email. Verify its other statements against current app behavior.
-- The product page is in the repository, but public hosting and deployed links were not verified.
+- The public product site is now published and was verified at `https://mr-willlss.github.io/Keystore-online/`; recheck it and its links after future website changes.
 
 ### Next
 
@@ -98,7 +99,7 @@ These are documented outstanding checks, not claims about someone's current acti
 3. Align the README, privacy policy, in-app disclosures, and release checklist with current code. Resolve differences about writing archive, minimum Android version, database migration, and capture.
 4. Finish and verify in-app backup export/restore and the database migration strategy.
 5. Complete accessibility/tablet and localization checks, Play listing materials, privacy disclosures, and the independent security review called out in project notes.
-6. Configure website hosting and verify the live site and its assets.
+6. Keep the project log and privacy disclosures aligned with the app, and recheck the published site after updates.
 
 ### Evidence checked
 
